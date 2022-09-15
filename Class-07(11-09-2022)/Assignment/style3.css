@@ -88,19 +88,16 @@ box-sizing: border-box;
 Comments ends here */
 
 
-ul{
+.menu-height ul{
     list-style: none;
     margin-top: 15px;
+
 }
 
 .main-menu li{
     float: left;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-
-ul .child-menu{
     padding-left: 160px;
+    padding-right: 50px;
 }
 
 
