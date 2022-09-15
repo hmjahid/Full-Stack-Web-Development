@@ -95,8 +95,14 @@ ul{
 
 .main-menu li{
     float: left;
-    padding-left: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
+
+ul .child-menu{
+    padding-left: 160px;
+}
+
 
  ul .child-menu a{
     text-decoration: none;
