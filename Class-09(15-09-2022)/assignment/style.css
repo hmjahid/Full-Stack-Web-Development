@@ -1,9 +1,9 @@
-/*
 body{
-    margin: 0 0;
-    padding: 0 0;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
 }
-*/
+
 
 .col-1{
     width: 8.33%;
@@ -91,13 +91,14 @@ box-sizing: border-box;
 
 .main-menu{
     list-style: none;
-    padding-left: 300px;
+    padding-left: 400px;
    
 }
 
 .child-menu{
     float: left;
 }
+
 
 ul li a{
     text-decoration: none;
@@ -120,7 +121,16 @@ ul li a:hover{
 h2{
     text-align: center;
     color:  orangered;
+    font-size: 30px;
 }
+
+.technology{
+    font-weight: bolder;
+    font-size: 25px;
+    color: rgb(232, 19, 19);
+
+}
+
 
 .technology-box{
     height: 300px;
@@ -157,7 +167,7 @@ p{
     text-align: left;
     font-size: 15px;
     font-style: normal;
-    color: rgb(14, 13, 11);sss
+    color: rgb(14, 13, 11);
 }
 
 h5{
@@ -168,12 +178,18 @@ h5{
     font-weight: 150;
 }
 
+.review-section{
+    margin-bottom: 25px;
+}
+
 .feedback-heading{
     margin-top: 8px;
     border: none;
 }
+
+
 .footer-section{
-    height: 300px;
+    height: 500px;
     margin-bottom: 10px;
 
 }
@@ -183,7 +199,31 @@ h5{
 
 }
 
+.branch-section{
+    height: 200px;
+    margin-bottom: 10px;
+    background-color: rgba(213, 131, 30, 0.626);
+}
+.branch-address{
+    height: 100%;
+    border: none;
+    padding: 50px 30px 30px 220px;
+    align-content: center;
+}
+
+.social-pages{
+    text-align: center;
+    border: none;
+    margin-bottom: 10px;
+    
+}
+
+span a{
+    text-decoration: none;
+}
+
 footer{
     text-align: center;
     color: rgb(104, 14, 29);
 }
+
