@@ -63,6 +63,12 @@ border: 1px solid black;
 box-sizing: border-box;
 }
 
+.row:after{
+    content: ' ';
+    clear: both;
+    display: block;
+}
+
 .logo-height{
     height: 200px;
     background-color: pink;
@@ -76,7 +82,7 @@ box-sizing: border-box;
 .menu-height{
     height: 57px;
     background-color: rgb(13, 21, 2);
-    margin-bottom: 15px
+    margin-bottom: 0;
 }
 
 .logo{
@@ -124,7 +130,7 @@ h2{
     font-size: 30px;
 }
 
-.technology{
+.technology-heading{
     font-weight: bolder;
     font-size: 25px;
     color: rgb(232, 19, 19);
@@ -134,20 +140,20 @@ h2{
 
 .technology-box{
     height: 300px;
-    max-width: 90%;
-    background-color: rgb(183, 147, 225);
+    background-color: pink;
+    border: 1x solid black;
     border-style: solid;
     border-radius: 10px;
     border-width: 2px;
-    border-style: dashed;
     padding: 20px;
+    box-shadow: 20px white;
 }
 
 .review-box{
     height: 300px;
     max-width: 90%;
     background-color: rgb(138, 225, 180);
-    border-style: solid;
+    border: none;
     border-radius: 50px;
     border-width: 2px;
     border-style: double;
@@ -179,18 +185,18 @@ h5{
 }
 
 .review-section{
-    margin-bottom: 25px;
+    margin-bottom: 10px;
 }
 
 .photo{
     width: 38px;
     height: 50px;
-    padding-left: 200px;
+    padding-left: 210px;
 }
 
 
 .feedback-heading{
-    margin-top: 8px;
+    margin-top: 0;
     border: none;
 }
 
