@@ -1,0 +1,189 @@
+/*
+body{
+    margin: 0 0;
+    padding: 0 0;
+}
+*/
+
+.col-1{
+    width: 8.33%;
+    
+}
+
+.col-2{
+    width: 16.66%;
+}
+
+.col-3{
+    width: 25%;
+}
+
+.col-4{
+    width: 33.33%;
+}
+
+.col-5{
+    width: 41.66%;
+}
+
+.col-6{
+    width: 50%;
+}
+
+.col-7{
+    width: 58.33%;
+}
+
+.col-8{
+    width: 66.66%;
+}
+
+.col-9{
+    width: 75%;
+}
+
+.col-10{
+    width: 83.33%;
+}
+
+.col-11{
+    width: 91.66%;
+
+ 
+}
+
+.col-12{
+    width: 100%;
+    
+}
+
+[class*='col']{
+float: left;
+border: 1px solid black;
+box-sizing: border-box;
+}
+
+.logo-height{
+    height: 200px;
+    background-color: pink;
+}
+
+.banner-height{
+    height: 200px;
+    background-color: mediumseagreen;
+}
+
+.menu-height{
+    height: 57px;
+    background-color: rgb(13, 21, 2);
+    margin-bottom: 15px
+}
+
+.logo{
+    height: 100%;
+    width: 100%;
+}
+
+.banner{
+    height: 100%;
+    width: 100%;
+}
+
+.main-menu{
+    list-style: none;
+    padding-left: 300px;
+   
+}
+
+.child-menu{
+    float: left;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 15px 30px 15px 30px;
+    font-size: 20px;
+    font-weight: bold;
+   
+    
+}
+
+ul li a:hover{
+    color: rgb(234, 0, 255);
+    border-radius: 40px;
+    background-color: rgb(234, 237, 67);
+    transition: 0.5s;
+    
+}
+
+h2{
+    text-align: center;
+    color:  orangered;
+}
+
+.technology-box{
+    height: 300px;
+    max-width: 90%;
+    background-color: rgb(183, 147, 225);
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: dashed;
+    padding: 20px;
+}
+
+.review-box{
+    height: 300px;
+    max-width: 90%;
+    background-color: rgb(138, 225, 180);
+    border-style: solid;
+    border-radius: 50px;
+    border-width: 2px;
+    border-style: double;
+    padding: 20px;
+}
+
+h4{
+    text-align: center;
+    font-size: medium;
+    font-style: italic;
+    color: #da0a30;
+    font-weight: 200;
+}
+
+
+p{
+    text-align: left;
+    font-size: 15px;
+    font-style: normal;
+    color: rgb(14, 13, 11);sss
+}
+
+h5{
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    color: rgb(169, 18, 137);
+    font-weight: 150;
+}
+
+.feedback-heading{
+    margin-top: 8px;
+    border: none;
+}
+.footer-section{
+    height: 300px;
+    margin-bottom: 10px;
+
+}
+.footer-image{
+    height: 100%;
+    width: 100%;
+
+}
+
+footer{
+    text-align: center;
+    color: rgb(104, 14, 29);
+}
