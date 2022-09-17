@@ -185,7 +185,7 @@ h5{
 }
 
 .review-section{
-    margin-bottom: 10px;
+    margin-bottom: 0;
 }
 
 .photo{
@@ -196,20 +196,25 @@ h5{
 
 
 .feedback-heading{
-    margin-top: 0;
     border: none;
 }
 
+.photo-gallery-heading{
+    border: none;  
+}
 
 .footer-section{
     height: 500px;
-    margin-bottom: 10px;
 
 }
 .footer-image{
     height: 100%;
     width: 100%;
 
+}
+
+.branch-heading{
+    border: none;
 }
 
 .branch-section{
