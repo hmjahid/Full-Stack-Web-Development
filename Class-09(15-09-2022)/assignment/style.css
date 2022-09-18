@@ -2,6 +2,8 @@ body{
     margin: 0;
     margin-bottom: 10px;
     padding: 0;
+
+    background-color: rgb(13, 21, 2);
 }
 
 
@@ -83,6 +85,7 @@ box-sizing: border-box;
     height: 57px;
     background-color: rgb(13, 21, 2);
     margin-bottom: 0;
+    border: none;
 }
 
 .logo{
@@ -126,9 +129,35 @@ ul li a:hover{
 
 h2{
     text-align: center;
-    color:  orangered;
+    color:  white;
     font-size: 30px;
 }
+
+p{
+    text-align: left;
+    font-size: 15px;
+    font-style: normal;
+    /*
+    color: rgb(14, 13, 11);
+    */
+}
+
+h4{
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+    color: #da0a30;
+    font-weight: 200;
+}
+
+h5{
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    color: rgb(169, 18, 137);
+    font-weight: 150;
+}
+
 
 .technology-heading{
     font-weight: bolder;
@@ -146,12 +175,16 @@ h2{
     border-radius: 10px;
     border-width: 2px;
     padding: 20px;
-    box-shadow: 20px white;
-}
 
+    /*
+    box-shadow: 20px white;
+    */
+}
 .technology-box:hover{
-    background-color: rgb(183, 208, 25);
-    color: rgb(65, 231, 43);
+    background-color: white;
+    /*
+    color: rgb(43, 46, 231);
+    */
     transition: 0.5s;
 }
 
@@ -173,31 +206,6 @@ h2{
     transition: 0.5s;
 }
 */
-
-h4{
-    text-align: center;
-    font-size: 25px;
-    font-style: italic;
-    color: #da0a30;
-    font-weight: 200;
-}
-
-
-p{
-    text-align: left;
-    font-size: 15px;
-    font-style: normal;
-    color: rgb(14, 13, 11);
-}
-
-h5{
-    text-align: center;
-    font-size: 18px;
-    font-style: normal;
-    color: rgb(169, 18, 137);
-    font-weight: 150;
-}
-
 
 .photo{
     width: 38px;
@@ -231,7 +239,7 @@ h5{
 .branch-section{
     height: 200px;
     margin-bottom: 10px;
-    background-color: rgba(213, 131, 30, 0.626);
+    background-color: violet;
 }
 .branch-address{
     height: 100%;
@@ -244,15 +252,22 @@ h5{
     text-align: center;
     border: none;
     margin-bottom: 10px;
-    
+    color: white;   
 }
 
 span a{
     text-decoration: none;
+    color: #11da0a;
 }
+
+span a:hover{
+    color: rgb(225, 21, 48);
+    border-radius: 2px;
+    background-color: aqua;
+}
+
 
 footer{
     text-align: center;
-    color: rgb(104, 14, 29);
+    color: white;
 }
-
