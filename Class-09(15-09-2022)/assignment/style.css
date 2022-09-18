@@ -149,6 +149,12 @@ h2{
     box-shadow: 20px white;
 }
 
+.technology-box:hover{
+    background-color: rgb(183, 208, 25);
+    color: rgb(65, 231, 43);
+    transition: 0.5s;
+}
+
 .review-box{
     height: 300px;
     max-width: 90%;
@@ -159,6 +165,14 @@ h2{
     border-style: double;
     padding: 10px;
 }
+
+/*
+.review-box:hover{
+    background-color: aqua;
+    color: blue;
+    transition: 0.5s;
+}
+*/
 
 h4{
     text-align: center;
@@ -184,9 +198,6 @@ h5{
     font-weight: 150;
 }
 
-.review-section{
-    margin-bottom: 0;
-}
 
 .photo{
     width: 38px;
