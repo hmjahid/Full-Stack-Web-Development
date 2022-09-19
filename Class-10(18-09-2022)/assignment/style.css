@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(148, 79, 216);
+}
+
+div{
+    width: 100%;
+    max-height:auto ;
+}
+   
+h2{
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 40px;
+   
+}
+
+label{
+    margin-top: 10px;
+
+}
+
+input{
+    border: none;
+    box-sizing: border-box;
+    margin-top: 10px;
+    background-color: rgb(246, 241, 241);
+
+}
+
+button{
+    margin-top: 10px;
+}
+
+p{
+    text-align: right;
+    color: honeydew;
+    padding-top: 20px;
+}
+
+p a{
+    text-decoration: none;
+    background-color: blueviolet;
+}
+
+.container{
+    height: 300px;
+    width: 500px;
+    background-color: rgb(210, 16, 16);
+    margin-top: 300px;
+    margin-left: 680px;
+    padding: 30px;
+}
+
+
+
