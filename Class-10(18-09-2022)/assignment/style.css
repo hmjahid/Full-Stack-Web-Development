@@ -1,55 +1,106 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
 body{
+    display: flex;
+    justify-content: center;
+    min-height: 400px; 
+    align-items: center;
     background-color: rgb(148, 79, 216);
 }
+
 
 div{
     width: 100%;
     max-height:auto ;
 }
-   
-h2{
+
+.container{
+    width: 100%;
+    display: flex;
+    min-width: 300px;
+    
+}
+
+.login {
+    width: 400px;
+    background-color: white;
+    margin-top: 300px;
+    margin-left: 720px;
+
+}
+
+
+form{
+    width: 300px;
+    margin: 50px auto;
+
+}
+
+h1{
+    margin: 20px;
     text-transform: uppercase;
     text-align: center;
-    padding-top: 40px;
+    font-weight: 600px;
    
 }
 
-label{
-    margin-top: 10px;
+h2{
+    margin: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600px;
+   
 
+}
+
+form label{
+    display: block;
+    font-size: 16px;
+    font-weight: 5px;
+    padding: 5px;
 }
 
 input{
+    width: 100%;
     border: none;
-    box-sizing: border-box;
-    margin-top: 10px;
-    background-color: rgb(246, 241, 241);
-
+    outline: none;
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 10px;
 }
 
 button{
+    border: none;
+    outline: none;
+    color: white;
+    background-color: rgb(233, 24, 59);
+    padding: 6px;
+    width: 100%;
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 10px;
+
+}
+.forgot{
+    font-size: 16px;
     margin-top: 10px;
+    float: right;
+
 }
 
-p{
-    text-align: right;
-    color: honeydew;
-    padding-top: 20px;
-}
-
-p a{
+a{
     text-decoration: none;
-    background-color: blueviolet;
+    color: orangered;
+
 }
 
-.container{
-    height: 300px;
-    width: 500px;
-    background-color: rgb(210, 16, 16);
-    margin-top: 300px;
-    margin-left: 680px;
-    padding: 30px;
+hr{
+    border-top: 2px solid blueviolet;
 }
-
-
-
