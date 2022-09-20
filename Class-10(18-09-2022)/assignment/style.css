@@ -95,7 +95,7 @@ button{
 
 }
 
-.login--link{
+.login-link{
     font-size: 16px;
     margin-top: 10px;
     float: right;
@@ -111,4 +111,17 @@ a{
 hr{
     border-top: 2px solid blueviolet;
     margin-bottom: 15px;
+}
+
+h4{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.existedAccount{
+    margin-top: 25px;
+}
+
+button a{
+    color: white;
 }
