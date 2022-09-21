@@ -30,8 +30,13 @@ div{
 .login {
     width: 400px;
     background-color: white;
-    margin-top: 300px;
+    margin: 0 auto;
+    margin-top: 250px;
+
+
+   /* margin-top: 300px;
     margin-left: 720px;
+    */
 
 }
 
@@ -105,7 +110,6 @@ button{
 a{
     text-decoration: none;
     color: orangered;
-
 }
 
 hr{

@@ -46,9 +46,8 @@ p a{
     height: 300px;
     width: 500px;
     background-color: rgb(210, 16, 16);
-    margin-top: 300px;
-    margin-left: 680px;
-    padding: 30px;
+    margin: 300px  auto;
+    padding-top: 30px;
 }
 
 nav{
