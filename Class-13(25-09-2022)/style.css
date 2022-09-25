@@ -1,0 +1,208 @@
+
+.col-1{
+    width: 8.33%;
+}
+
+.col-2{
+    width: 16.66%;
+}
+
+.col-3{
+    width: 25%;
+}
+
+.col-4{
+    width: 33.32%;
+}
+
+.col-5{
+    width: 41.65%;
+}
+
+.col-6{
+    width: 50%;
+}
+
+.col-7{
+    width: 58.33%;
+}
+
+.col-8{
+    width: 66.66%;
+}
+
+.col-9{
+    width: 75%;
+}
+
+.col-10{
+    width: 83.33%;
+}
+
+.col-11{
+    width: 91.66%;
+}
+
+.col-12{
+    width: 100%;
+}
+
+
+[class*='col-']{
+    float: left;
+    /*
+    border: 1px solid black;
+    */
+    box-sizing: border-box;
+    display: block;
+}
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body{
+    background-color: white;
+}
+
+.header-height{
+    height: 200px;
+}
+
+.logo{
+    height: 200px;
+}
+
+.logo-image{
+    height: 100%;
+    width: 100%;
+}
+
+.banner{
+    height: 200px;
+}
+
+.banner-image{
+    height: 100%;
+    width: 100%;
+}
+
+.menu-height{
+    height: 100px;
+    padding-left: 350px;
+}
+
+
+.menu-height ul{
+    list-style: none;
+    color: black;
+    
+}
+
+.menu-height ul li{
+    float: left;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+
+.menu-height ul li a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.content-height{
+    height: 300px;
+}
+
+.content-box-1{
+    height: 300px;
+}
+
+.content-box-2{
+    height: 300px;
+}
+
+.content-box-2{
+    background-color: azure;
+    padding: 30px;
+
+}
+
+.content-box-3{
+    height: 300px;
+}
+
+.content-box-image-1{
+    height: 100%;
+    width: 100%;
+}
+
+.content-box-image-2{
+    height: 100%;
+    width: 100%;
+}
+.main-content{
+    color: rgb(37, 30, 22);
+    font-size: large;
+    padding-top: 30px;
+}
+
+h2{
+    padding: 20px;
+    text-align: center;
+}
+
+p{
+    color: red;
+    text-align: center;
+}
+
+.footer-menu-height{
+    height: 200px;
+    padding: 80px 30px 30px 30px;
+    background-image: url(image/5.webp);
+    background-size: cover;
+    padding-left: 350px;
+}
+
+.footer-height{
+    height: 200px;
+   
+}
+
+.footer-logo{
+    height: 200px;
+}
+
+
+
+.footer-menu-height ul{
+    list-style: none;
+    color: black;
+    
+}
+
+.footer-menu-height ul li{
+    float: left;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+
+.footer-menu-height ul li a{
+    text-decoration: none;
+    color: black;
+    
+}

@@ -1,0 +1,279 @@
+@media screen and (max-width: 420px) {
+    body{
+        margin: 0;
+        margin-bottom: 10px;
+        padding: 0;
+    
+        background-color: rgb(13, 21, 2);
+    }
+    
+    
+    .col-1{
+        width: 8.33%;
+        
+    }
+    
+    .col-2{
+        width: 16.66%;
+    }
+    
+    .col-3{
+        width: 25%;
+    }
+    
+    .col-4{
+        width: 33.33%;
+    }
+    
+    .col-5{
+        width: 41.66%;
+    }
+    
+    .col-6{
+        width: 50%;
+    }
+    
+    .col-7{
+        width: 58.33%;
+    }
+    
+    .col-8{
+        width: 66.66%;
+    }
+    
+    .col-9{
+        width: 75%;
+    }
+    
+    .col-10{
+        width: 83.33%;
+    }
+    
+    .col-11{
+        width: 91.66%;
+    
+     
+    }
+    
+    .col-12{
+        width: 100%;
+        
+    }
+    
+    [class*='col']{
+    float: left;
+    border: 1px solid black;
+    box-sizing: border-box;
+    }
+    
+    .row:after{
+        content: ' ';
+        clear: both;
+        display: flex;
+        margin: 0 auto;
+    }
+    
+    .logo-height{
+        height: 200px;
+        background-color: pink;
+    }
+    
+    .banner-height{
+        height: 200px;
+        background-color: mediumseagreen;
+    }
+    
+    .menu-height{
+        height: 57px;
+        background-color: rgb(13, 21, 2);
+        margin-bottom: 0;
+        border: none;
+    }
+    
+    .logo{
+        height: 100%;
+        width: 25%;
+    }
+    
+    .banner{
+        height: 100%;
+        width: 25%;
+    }
+    
+    .main-menu{
+        list-style: none;
+        padding-left: 400px;
+       
+    }
+    
+    .child-menu{
+        float: left;
+    }
+    
+    
+    ul li a{
+        text-decoration: none;
+        color: white;
+        padding: 15px 30px 15px 30px;
+        font-size: 20px;
+        font-weight: bold;
+       
+        
+    }
+    
+    ul li a:hover{
+        color: rgb(234, 0, 255);
+        border-radius: 40px;
+        background-color: rgb(234, 237, 67);
+        transition: 0.5s;
+        
+    }
+    
+    h2{
+        text-align: center;
+        color:  white;
+        font-size: 30px;
+    }
+    
+    p{
+        text-align: left;
+        font-size: 20px;
+        font-style: normal;
+        /*
+        color: rgb(14, 13, 11);
+        */
+    }
+    
+    h4{
+        text-align: center;
+        font-size: 25px;
+        font-style: italic;
+        color: #da0a30;
+        font-weight: 200;
+    }
+    
+    h5{
+        text-align: center;
+        font-size: 18px;
+        font-style: normal;
+        color: rgb(169, 18, 137);
+        font-weight: 150;
+    }
+    
+    
+    .technology-heading{
+        font-weight: bolder;
+        font-size: 25px;
+        color: rgb(232, 19, 19);
+    
+    }
+    
+    
+    .technology-box{
+        height: 300px;
+        background-color: pink;
+        border: 1x solid black;
+        border-style: solid;
+        border-radius: 10px;
+        border-width: 2px;
+        padding: 20px;
+    
+        /*
+        box-shadow: 20px white;
+        */
+    }
+    .technology-box:hover{
+        background-color: white;
+        /*
+        color: rgb(43, 46, 231);
+        */
+        transition: 0.5s;
+    }
+    
+    .review-box{
+        height: 300px;
+        max-width: 90%;
+        background-color: rgb(138, 225, 180);
+        border: none;
+        border-radius: 50px;
+        border-width: 2px;
+        border-style: double;
+        padding: 15px 15px 15px 30px;
+    }
+    
+    
+    .review-box:hover{
+        background-color: rgb(34, 200, 200);
+        color: rgb(35, 35, 173);
+        transition: 0.5s;
+    }
+    
+    
+    .photo{
+        width: 10px;
+        height: 50px;
+        padding-left: 50px;
+    }
+    
+    
+    .feedback-heading{
+        border: none;
+    }
+    
+    .photo-gallery-heading{
+        border: none;  
+    }
+    
+    .footer-section{
+        height: 500px;
+    
+    }
+    .footer-image{
+        height: 100%;
+        width: 25%;
+    
+    }
+    
+    .branch-heading{
+        border: none;
+    }
+    
+    .branch-section{
+        height: 200px;
+        margin-bottom: 10px;
+        background-color: violet;
+    }
+    .branch-address{
+        height: 100%;
+        border: none;
+        padding: 50px 30px 30px 220px;
+        justify-content: flex;
+        margin: 0 auto;
+    }
+    
+    .social-pages{
+        text-align: center;
+        border: none;
+        margin-bottom: 10px;
+        color: white;   
+    }
+    
+    span a{
+        text-decoration: none;
+        color: #11da0a;
+    }
+    
+    span a:hover{
+        color: rgb(225, 21, 48);
+        border-radius: 2px;
+        background-color: aqua;
+    }
+    
+    
+    footer{
+        text-align: center;
+        color: white;
+    }
+    
+
+}
