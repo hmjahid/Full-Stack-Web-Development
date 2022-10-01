@@ -1,0 +1,52 @@
+.header a{
+    font-size: 20px;
+}
+h1{
+    color: #c0392b;
+}
+
+h2{
+    color:  #8e44ad;
+    padding-top: 5px;
+}
+
+.modal-btn{
+    margin: 0;
+    padding: 0;
+}
+
+.btn-primary{
+    margin-left: 125px;
+}
+
+.btn-success{
+    margin-top: 5px;
+    margin-left: 135px;
+}
+
+.footer-menu{
+    padding: 60px 0 10px 50px;
+}
+
+.footer-menu a{
+    font-size: 20px;
+}
+
+.footer-address{
+    padding-top: 10px;
+    text-align: center;
+}
+
+.copyright p{
+    font-size: 20px;
+    padding-top: 120px;
+    text-align: center;
+}
+
+.mapouter{
+    margin: 0 auto;
+}
+
+h5{
+    padding-top: 5px;
+}
