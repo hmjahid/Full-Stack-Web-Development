@@ -1,0 +1,19 @@
+.discountCalculationBox{
+    margin: 250px 0 0 750px;
+}
+
+h2{
+    font-size: 30px;
+    font-weight: 600;
+    padding-left: 15px;
+    color: blueviolet;
+    text-shadow: 0 10px 10px 0;
+}
+
+input{
+    font-size: 30px;
+    font-weight: 600;
+    color: cornflowerblue;
+    text-align: right;
+    box-shadow: 0 5px 10px 0;
+}
