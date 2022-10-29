@@ -11,8 +11,13 @@ a{
     text-decoration: none !important;
 }
 .carousel-inner h5{
-    color:chartreuse;
+    color:rgb(0, 166, 255);
     font-size: 32px;
+    background-color: #ffffff;
+    width: 350px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 15px;
 }
 
 .carousel-inner p{
@@ -183,4 +188,8 @@ footer .social-icon li i:hover {
 }
 .copyright {
     font-size: 18px;
+}
+
+.container-fluid{
+    
 }
