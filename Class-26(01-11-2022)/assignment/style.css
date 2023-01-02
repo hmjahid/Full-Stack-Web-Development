@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: pink;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.container{
+    width: 520px;
+    height: auto;
+    min-height: 100px;
+    margin: 100px auto;
+    background-color: aquamarine;
+    border-radius: 5px;
+}
+
+.main{
+    width: 100%;
+    margin: 0;
+    display: block;
+    overflow: hidden;
+    float: none;
+}
+
+.main h2{
+    background-color: white;
+    text-align: center;
+    color: red;
+}
