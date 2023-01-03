@@ -33,3 +33,11 @@ body{
     text-align: center;
     color: red;
 }
+
+.user-input{
+    width: 140px;
+    padding: 5px 20px;
+    margin-left: 5px;
+    display: inline-block;
+    float: left;
+}
