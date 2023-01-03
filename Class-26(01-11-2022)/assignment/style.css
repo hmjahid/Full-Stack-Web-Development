@@ -14,7 +14,7 @@ body{
 .container{
     width: 520px;
     height: auto;
-    min-height: 100px;
+    min-height: 200px;
     margin: 100px auto;
     background-color: aquamarine;
     border-radius: 5px;
@@ -40,4 +40,19 @@ body{
     margin-left: 5px;
     display: inline-block;
     float: left;
+}
+
+.title{
+    font-size: 20px;
+    text-align: left;
+    color: black;
+}
+
+input[type=text]{
+    width: 140px;
+    margin: auto;
+    outline: none;
+    border: 2px solid pink;
+    padding: 10px;
+    border-radius: 5px;
 }
