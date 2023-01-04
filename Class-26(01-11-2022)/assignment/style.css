@@ -56,3 +56,16 @@ input[type=text]{
     padding: 10px;
     border-radius: 5px;
 }
+
+input[type=button]{
+    width: 150px;
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 180px;
+    margin-top: 18px;
+    background: violet;
+    font-size: 18px;
+    color: blanchedalmond;
+}
